@@ -1,4 +1,4 @@
-import { ChakraProvider } from "@chakra-ui/layout";
+import { ChakraProvider } from "@chakra-ui/react";
 import Header from "./components/Header";
 import LandingSection from "./components/LandingSection";
 import ProjectsSection from "./components/ProjectsSection";

@@ -2,16 +2,16 @@ import React from "react";
 import { useFormik } from "formik";
 import {
   Box,
-  Button,
-  FormControl,
-  FormErrorMessage,
-  FormLabel,
   Heading,
-  Input,
-  Select,
-  Textarea,
   VStack,
 } from "@chakra-ui/layout";
+import {Button} from '@chakra-ui/button'
+import {Select} from '@chakra-ui/select'
+import {Textarea} from '@chakra-ui/textarea';
+import {Input} from "@chakra-ui/input";
+import { FormControl,
+  FormErrorMessage,
+  FormLabel} from '@chakra-ui/form-control'
 import * as Yup from "yup";
 import FullScreenSection from "./FullScreenSection";
 import useSubmit from "../hooks/useSubmit";
