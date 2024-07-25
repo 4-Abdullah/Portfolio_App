@@ -20,13 +20,13 @@ const LandingSection = () => (
     <h1>{bio1}</h1>
     <h2>{bio2}</h2>
    
-
+    
     {/* <img src='https://i.pravatar.cc/150?img=7' alt='Avatar'  className="img_style"/>
     <p>{greeting}</p>
     <h1>{bio1}</h1>
     <h2>{bio2}</h2> */}
    
-   <VStack spacing={16}> 
+   {/* <VStack spacing={16}> 
      <VStack spacing={4} alignItems="center"> 
        <Avatar 
          src="https://i.pravatar.cc/150?img=7" 
@@ -45,7 +45,7 @@ const LandingSection = () => (
          {bio2} 
        </Heading> 
      </VStack> 
-   </VStack> 
+   </VStack>  */}
 
   </FullScreenSection>
 );
