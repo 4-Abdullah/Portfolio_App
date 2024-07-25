@@ -18,9 +18,6 @@ const LandingSection = () => (
     <p>{greeting}</p>
     <h1>{bio1}</h1>
     <h2>{bio2}</h2>
-   
-    
-  
 
   </FullScreenSection>
 );

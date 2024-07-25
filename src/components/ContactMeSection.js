@@ -11,7 +11,7 @@ import {
   Select,
   Textarea,
   VStack,
-} from "@chakra-ui/react";
+} from "@chakra-ui/layout";
 import * as Yup from "yup";
 import FullScreenSection from "./FullScreenSection";
 import useSubmit from "../hooks/useSubmit";

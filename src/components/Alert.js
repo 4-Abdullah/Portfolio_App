@@ -4,7 +4,7 @@ import {
     AlertDialogContent,
     AlertDialogHeader,
     AlertDialogOverlay,
-  } from "@chakra-ui/react";
+  } from "@chakra-ui/layout";
   import { useAlertContext } from "../context/alertContext";
   import { useRef } from "react";
   
